@@ -14,7 +14,7 @@
       --bg: #0b1020;
       --bg-soft: #11162a;
       --primary: #7c3aed;
-      --text: #e5e7eb;
+      --text: #225aca;
       --muted: #9aa3b2;
       --card: #0f1528;
       --ring: rgba(124, 58, 237, .4);
@@ -255,7 +255,11 @@
       padding: 28px 0;
       color: var(--muted);
       text-align: center;
-      color: lch(94.75% 0.63 256.19);
+      color: oklab(94.073% -0.00324 -0.0081);
+    }
+
+    .razz {
+      color: red;
     }
 
     @media (max-width: 980px) {
@@ -465,7 +469,7 @@
   <!-- ✅ Footer -->
   <footer>
     <div class="container">
-      © <span id="y"></span> ALL Right Reserved by Md. Minhazul Islam &
+      © <span id="y"></span> ALL Right Reserved by <span class="razz">Md. Minhazul Islam</span> &
       <span data-bn="ভালবাসা দিয়ে বানানো" data-en="Built with Love">Built with Love</span>
     </div>
   </footer>
